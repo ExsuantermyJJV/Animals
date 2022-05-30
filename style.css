@@ -70,7 +70,7 @@ header{
 	transition: ease .40s;
 }
 .navbar a:hover{
-background-color: #8f7cfa;
+background-color: #0bff02f5;
 	color: var(--text-color);
 	box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
 	border-radius: 4px;
@@ -119,13 +119,14 @@ color: white;
 	display: inline-block;
 	font-size: 16px;
 	padding: 15px 30px;
-	background: #8f7cfa;
+	background: #0bff02f5;
 	color: black;
 	border-radius: 4px;
 	transition: ease .40s;
 }
 .home-btn:hover{
-	background-color: #f7f7f7;
+	background-color: #000000;
+	color: white;
 	transform: scale(1.1);
 }
 header.sticky{
