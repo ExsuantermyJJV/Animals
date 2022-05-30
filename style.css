@@ -38,6 +38,93 @@ body{
 	color: var(--text-color);
 }
 
+
+.titulocard{
+text-align: center;
+color: white;
+font-size: 4vh;
+
+}
+
+.body11{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 100%;
+font-size: 16px;
+line-height: 1.5;
+background: rgb(0, 0, 0);
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+
+}
+
+footer{
+	text-align: center;
+	color: #09ff00f5;
+	background-color: #000;
+}
+
+.body222{
+	background-image: url(./img/iguana-306397.png);
+}
+
+.site-container{
+	margin: 2rem auto;
+	max-width: calc(100% - 80px);
+
+}
+
+.article-container{
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(265px, 1fr));
+	gap: 2rem;
+}
+
+.article-figue{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.article-figue img{
+	max-width: 100%;
+	height: auto;
+	border-radius: 20px 20px 0 0;
+}
+
+.article-card{
+	background: rgba(0, 0, 0, 0.829);
+	border-radius: 20px;
+	transition: 0.3s;
+}
+
+.article-card:hover{
+	box-shadow: 0 4px 20px 0 #09ff0054;
+	cursor: pointer;
+}
+
+.article-content{
+	padding: 2rem;
+}
+
+.article-content .card-category{
+	font-size: 0.975rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-weight: 600;
+	color: #09ff00f5;
+	display: block;
+	text-decoration: none;
+text-align: center;
+}
+
+.article-content .card-excerpt{
+	font-size: 1rem;
+	line-height: 1.5rem;
+color: rgb(255, 255, 255);
+margin: 0;
+}
+
+
 header{
 	position: fixed;
 	top: 0;
@@ -66,8 +153,8 @@ header{
 	font-size: var(--p-font);
 	font-weight: 500;
 	padding: 10px 22px;
-	border-radius: 4px;
 	transition: ease .40s;
+	background-color: #000;
 }
 .navbar a:hover{
 background-color: #0bff02f5;
@@ -91,44 +178,15 @@ section{
 	position: relative;
 	width: 100%;
 	height: 100vh;
-	background: url(./img/fondopri.jpg);
+	background: url(./img/crocodile-4527760_1920.jpg);
 	background-size: cover;
 	background-position: center;
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
 	align-items: center;
 }
-.home-text h1{
-	font-size: var(--big-font);
-	line-height: 1.2;
-	color: rgb(253, 253, 253);
-	font-family: 'Paytone One', sans-serif;
-	letter-spacing: 4px;
-	margin-bottom: 20px;
-}
-.home-text p{
-color: white;
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 18px;
-	margin-bottom: 50px;
-	background-color: rgba(0, 0, 0, 0.678);
-	width: 280px;
-}
-.home-btn{
-	display: inline-block;
-	font-size: 16px;
-	padding: 15px 30px;
-	background: #0bff02f5;
-	color: black;
-	border-radius: 4px;
-	transition: ease .40s;
-}
-.home-btn:hover{
-	background-color: #000000;
-	color: white;
-	transform: scale(1.1);
-}
+
+
 header.sticky{
 	background: var(--bg-color);
 	padding: 10px 18%;
@@ -140,6 +198,10 @@ header.sticky{
 .sticky .navbar a{
 	color: var(--text-color);
 } 
+
+
+
+
 
 
 
